@@ -1,5 +1,4 @@
 body{
-   
     margin: 0px;
 }
 
@@ -11,14 +10,14 @@ body{
     left:32%;
     top:0px;
     text-align:center;
-    background-size: cover;
-    background-image: "transparent url('./1.jpg')";
-    
+
 }
 
 form{
     width: 400px;
     position: relative;
+    background-size: cover;
+    background: transparent url ('./1.jpg');
 }
 
 .subtitle{
@@ -36,10 +35,6 @@ input{
     width: 300px;
     text-align: center;
     padding: 3%;
-}
-
-input.done::before{
-    text-align: left;
 }
 
 .footer-form{
